@@ -8,8 +8,8 @@ class Rectangle2{
         breadth = 1;
     }
     public Rectangle2(int l, int b){
-        length = l;
-        breadth = b;
+        setLength(l);
+        setBreadth(b);
     }
     public int getLength(){
         return length;
