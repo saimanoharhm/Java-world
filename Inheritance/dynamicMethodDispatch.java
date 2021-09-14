@@ -12,6 +12,6 @@ public class dynamicMethodDispatch {
     Super1 sb = new Sub1();
     sb.meth1();
     sb.meth2();
-    sb.meth3();
+    // sb.meth3();
   }
 }
