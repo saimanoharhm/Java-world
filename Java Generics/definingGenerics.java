@@ -34,7 +34,7 @@ class MyArray3 <T extends Number>
 }
 
 public class definingGenerics {
-  static <E> void show(E... list){
+  static <E extends Number> void show(E... list){
     for(E x:list){
       System.out.println(x);
     }
